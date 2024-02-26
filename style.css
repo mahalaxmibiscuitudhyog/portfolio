@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    height: 100vh;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.left {
+    color: palevioletred;
+    font-size: 2rem;
+
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #fafafa;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: palevioletred;
+}
+
+.left {
+    font-size: 1.7rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0px;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    margin: 0 auto;
+    gap: 5rem;
+}
+
+.btn {
+    border: 2px solid palevioletred;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.firstsection>div {
+    width: 47%;
+    margin: 50px 0;
+}
+
+section .leftsection {
+    /* background-color: red; */
+    font-size: 3rem;
+    /* margin-top: 100px; */
+}
+
+.purple {
+    color: palevioletred;
+}
+
+.button {
+    margin: 0 42px;
+}
+
+.rightsection img {
+    width: 500px;
+    border-radius: 20px;
+}
+
+footer {
+    height: 25vh;
+    background-color: #fafafa;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    margin: auto auto;
+}
+
+.name {
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+.right ul li {
+    margin-top: 20px;
+}
+
+.right ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.right ul li a:hover {
+    color: palevioletred;
+}
